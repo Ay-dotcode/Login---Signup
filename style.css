@@ -16,11 +16,25 @@ body {
 }
 
 section {
-    display: block;
-    height: fit-content;
+    height: 90vh;
+    width: 45%;
     color: hsl(0, 0%, 10%);
     background-color: hsl(0, 0%, 95%);
     padding: 16px;
     border-radius: 16px;
     text-align: center;
+}
+
+section a {
+    text-decoration: none;
+}
+
+#login {
+    position: absolute;
+    right: 50%;
+}
+
+#signup {
+    position: absolute;
+    left: 50%;
 }
