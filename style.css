@@ -5,36 +5,52 @@
 }
 
 body {
-    background: linear-gradient(145deg, hsl(240, 100%, 60%), hsl(120, 100%, 60%));
+    background: linear-gradient(145deg, hsl(240, 100%, 50%), hsl(120, 100%, 50%));
     color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     font-family: sans-serif, Arial;
     height: 100vh;
     padding: 20px;
 }
 
-section {
+main {
     height: 90vh;
-    width: 45%;
+    width: 95%;
+    min-height: fit-content;
+    min-width: max-content;
     color: hsl(0, 0%, 10%);
     background-color: hsl(0, 0%, 95%);
-    padding: 16px;
-    border-radius: 16px;
+    margin: 1%;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    background-color: transparent;
 }
 
-section a {
+main a {
     text-decoration: none;
 }
 
+section {
+    padding: 20px;
+    height: 100%;
+    width: 50%;
+    border: 2px solid hsl(0, 0%, 10%);
+    border-radius: 16px;
+}
+
 #login {
-    position: absolute;
-    right: 50%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: linear-gradient(45deg, hsl(240, 100%, 60%), hsl(120, 100%, 60%));
 }
 
 #signup {
-    position: absolute;
-    left: 50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: linear-gradient(315deg, hsl(240, 100%, 60%), hsl(120, 100%, 60%));
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
 }
