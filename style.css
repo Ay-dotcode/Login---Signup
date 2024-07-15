@@ -22,7 +22,7 @@ main {
     padding: 16px;
     border-radius: 16px;
     min-width: max-content;
-    min-height: 500px;
+    min-height: 600px;
     max-height: 90%;
     max-width: 500px;
     margin: 1%;
@@ -57,6 +57,97 @@ section {
     transform: translateX(100%);
     filter: blur(5px);
 }
+
+h2 {
+    margin: 16px;
+    font-size: 3rem;
+    width: 100%;
+}
+
+form {
+    width: 90%;
+    padding: 16px;
+    transition: transform 2s, filter 2s ease;
+}
+
+form input {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+form a {
+    color: white;
+    font-size: 1.2rem;
+    margin: 36px 8px;
+}
+
+#login_remember,
+#signup_remember,
+#terms {
+    width: fit-content;
+    margin: 8px;
+}
+
+#LoginBtn,
+#SignupBtn {
+    width: 50%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 2rem;
+    color: hsl(0, 0%, 90%);
+    cursor: pointer;
+    margin: 20px;
+    background: linear-gradient(145deg, hsl(120, 100%, 25%), hsl(240, 100%, 25%));
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 5px black;
+    transition: color 0.3s;
+}
+
+#LoginBtn:hover,
+#SignupBtn:hover {
+    background: linear-gradient(145deg, hsl(240, 100%, 25%), hsl(120, 100%, 25%));
+    color: white;
+    box-shadow: 4px 4px 10px black;
+}
+
+#showSignupBtn,
+#showLoginBtn,
+#termsLink {
+    background-color: transparent;
+    color: hsl(0, 0%, 90%);
+    border: none;
+    margin: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.alternate {
+    padding-top: 8px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.verticalLine {
+    width: 30%;
+    background-color: white;
+    height: 4px;
+    margin: 8px;
+}
+
+#terms {
+    margin-top: 20px;
+}
+
 
 footer {
     padding: 16px;
