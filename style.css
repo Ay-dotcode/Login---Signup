@@ -1,13 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     width: 100%;
     padding: 3%;
     background: linear-gradient(145deg, hsl(120, 100%, 50%), hsl(240, 100%, 50%));
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
 }
-main{}
+
+main {
+    background: linear-gradient(145deg, hsl(240, 100%, 50%), hsl(120, 100%, 50%));
+    display: flex;
+    padding: 16px;
+    border-radius: 8px;
+    min-width: max-content;
+    min-height: 500px;
+    max-height: 90%;
+    max-width: 80%;
+    margin: 1%;
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    transition: transform 2s, filter 2s ease;
+}
+
+#login {
+    transform: translateX(0%);
+    filter: none;
+}
+
+#signup {
+    transform: translateX(100%);
+    filter: blur(5px);
+}
