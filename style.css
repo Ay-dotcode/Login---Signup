@@ -14,21 +14,21 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: center;
+
 }
 
 main {
     background: linear-gradient(145deg, hsl(240, 100%, 50%), hsl(120, 100%, 50%));
-    display: flex;
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 16px;
     min-width: max-content;
     min-height: 500px;
     max-height: 90%;
-    max-width: 80%;
+    max-width: 500px;
     margin: 1%;
     position: relative;
     overflow: hidden;
+
 }
 
 a {
@@ -56,4 +56,14 @@ section {
 #signup {
     transform: translateX(100%);
     filter: blur(5px);
+}
+
+footer {
+    padding: 16px;
+    color: white;
+    margin: 20px;
+}
+
+footer a {
+    color: hsl(20, 75%, 60%);
 }
