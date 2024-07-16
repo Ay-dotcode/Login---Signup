@@ -6,15 +6,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
     width: 100%;
     padding: 3%;
-    background: linear-gradient(145deg, hsl(120, 100%, 50%), hsl(240, 100%, 50%));
+    background: linear-gradient(145deg, hsl(120, 100%, 60%), hsl(240, 100%, 60%));
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: contain;
 }
 
 main {
